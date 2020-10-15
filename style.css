@@ -108,7 +108,7 @@ img.mypic {
 }
 
 img.mypic.logo {
-  /* margin-top: 2rem;*/
+   margin-top: 0;
   margin-left:9rem;
     width: 4rem;
     align-items: center;
@@ -139,6 +139,7 @@ grid-template-rows: 1fr, 2fr,1fr;
 
 #pic
 {
+    margin-top: 1rem;
 position: matrix(1,2); 
 width: 25rem;
     align-items: center;
