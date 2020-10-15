@@ -98,17 +98,104 @@ body {
 /*************************************************************/
 img.mypic {
     margin-top: 1rem;
+
     width: 25rem;
     align-items: center;
-    padding: 0;
+    margin-right: :100px;
+     padding-right: 50px;
+     border-right:  50px;
+    
 }
 
 img.mypic.logo {
   /* margin-top: 2rem;*/
-    width: 6rem;
+  margin-left:9rem;
+    width: 4rem;
     align-items: center;
+     /*margin-left:0px;
+     padding-left: 0px;
+     border-left: 0px;*/
     padding: 0;
 }
+
+.correct
+{
+     margin-left:0px;
+     padding-left: 0px;
+     border-left: 0px;
+}
+
+.container2{
+position: relative;
+/*display: inline-grid;*/
+margin: auto;
+ /*margin-right: auto;
+   margin-left: auto;*/
+max-width: 300px;
+grid-template-columns: 1fr 2fr 1fr;
+grid-template-rows: 1fr, 2fr,1fr;
+
+}
+
+#pic
+{
+position: matrix(1,2); 
+width: 25rem;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+}
+
+#picText
+{
+    margin:0;
+position: matrix(2,2); 
+font-family: 'Source Code Pro', monospace;
+font-size: 25px;
+/*color:rgb(33,37,41);
+*/
+/*color:#999999;*/
+display: inline-block;
+    text-align: center ;
+    width: 25rem;
+    align-items: center;
+    align-content: center;
+    margin:center;
+    
+
+}
+
+h2.innerText{
+    margin:0;
+     width: 25rem;
+}
+
+h3.innerText{
+    margin:0;
+    position: matrix(3,2);
+    width: 25rem; 
+   /* color:#555555;*/
+    font: monospace;
+    font-size: 20px;
+     align-items: center;
+    align-content: center;
+    margin:center;
+    
+}
+
+h4.innerText{
+    margin:0;
+    position: matrix(4,2);
+    width: 25rem; 
+    /*color:#000000;*/
+    font: monospace;
+    font-size: 10px;
+     align-items: center;
+    align-content: center;
+    
+}
+
+
 
 
 
@@ -290,6 +377,26 @@ footer {
     background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
     background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
 }
+
+
+
+/***********************************************************************
+ *  Gray Background
+ **********************************************************************/
+.gray {
+    background: #A9A9A9; /* Old browsers */
+    background: -moz-linear-gradient(top, #A9A9A9 0%, #A9A9A9 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#A9A9A9), color-stop(100%,#A9A9A9)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #A9A9A9 0%,#A9A9A9 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #A9A9A9 0%,#A9A9A9 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #A9A9A9 0%,#A9A9A9 100%); /* IE10+ */
+    background: linear-gradient(top, #A9A9A9 0%,#A9A9A9 100%); /* W3C */
+}
+
+
+
+
+
 
 
 /***********************************************************************
