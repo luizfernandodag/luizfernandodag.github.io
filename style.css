@@ -73,9 +73,9 @@ body {
     min-width: 50px;
     padding-left: 0px;
     align-items: center;
-
-
 }
+
+
 .main-nav.center {
    /*align-self: center;*/
    margin-right: auto;
@@ -95,6 +95,26 @@ body {
      align-items: center;
 
 }
+
+/*.main-nav:not(.center)> li
+{
+border-style: solid;
+
+border-color: #ff751a;
+}*/
+/*p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}*/
+
+
 /*************************************************************/
 img.mypic {
     margin-top: 1rem;
