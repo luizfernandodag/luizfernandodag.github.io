@@ -300,8 +300,20 @@ li {
 
 a {
     color: #f5f5f6;
+    
     text-decoration: none;
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+.normalText {
+    color: #000000;
+    text-decoration: none;
+}
+
     
 
 /***********************************************************************
