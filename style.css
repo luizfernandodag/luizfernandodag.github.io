@@ -208,11 +208,18 @@ h4.innerText{
     margin:0;
     position: matrix(4,2);
     width: 25rem; 
+
+
     /*color:#000000;*/
     font: monospace;
     font-size: 10px;
      align-items: center;
     align-content: center;
+
+
+
+
+
     
 }
 
@@ -368,6 +375,24 @@ footer {
     text-align: center;
 }
 
+
+
+/***********************************************************************
+ *  About
+ **********************************************************************/
+
+div h3{
+    height: 0.5rem;
+}
+
+.adj{
+  color: green;
+}
+
+
+.mood{
+  
+}
 
 
 
