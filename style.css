@@ -386,23 +386,26 @@ div h3{
 }
 
 .adj{
-  color: green;
+    /*green*/
+  color: #00FF00;
 }
 
 .title {
-    color: blue;
+    /*blue*/
+    color: #0000FF;
 
 
 
 }
 
 li a {
-    color: black;
+    color: #000000;
 }
 
 span.IMDB
 {
-    color: red;
+    /*red*/
+    color: #FF0000;
 }
 
 
