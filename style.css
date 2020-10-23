@@ -518,6 +518,42 @@ display: inline-block;
 
 }
 
+/*List movies*/
+.show:hover >  ul.list-categories{
+  max-height: inherit;
+  opacity: 1;
+}
+
+.list-categories{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  max-height: 0px;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 300ms ease;
+}
+
+.noBullets{
+    list-style-type:none;
+}
+
+
+.movieInfo{
+    color: #00DF00;
+}
+
+/*<div class="show">show div
+<ul class="list-categories">
+  <li>Bed</li>
+  <li>Bed</li>
+  <li>Bed</li>
+  <li>Bed</li>
+  <li>Bed</li>
+  <li>Bed</li>
+</ul> 
+</div>
+*/
 
 
 
