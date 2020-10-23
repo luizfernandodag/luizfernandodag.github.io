@@ -486,6 +486,25 @@ h2.innerText3{
     color: orange;
 }
 
+.picText
+{
+    margin:0;
+position: matrix(2,2); 
+font-family: 'Source Code Pro', monospace;
+font-size: 25px;
+/*color:rgb(33,37,41);
+*/
+/*color:#999999;*/
+display: inline-block;
+    text-align: center ;
+    width: 25rem;
+    align-items: center;
+    align-content: center;
+    margin:center;
+    
+
+}
+
 
 
 
