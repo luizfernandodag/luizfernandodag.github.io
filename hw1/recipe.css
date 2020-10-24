@@ -185,20 +185,12 @@ a{
  **********************************************************************/
 .headingsColor {
 
-  	 font-family: Lucida", Sans Unicode, Helvetica, Arial, Sans-Serif;
-
-
-
+  	 font-family: Lucida, Sans Unicode, Helvetica, Arial, Sans-Serif;
 	/*foreground color*/
 	color: #A4A400;
 	/*background*/
     background: #F0F0F0; /* 000000owsers */
-    background: -moz-linear-gradient(to top, #F0F0F0 0%, #F0F0F0 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F0F0F0), color-stop(100%,#F0F0F0)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(to top, #F0F0F0 0%,#F0F0F0 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(to top, #F0F0F0 0%,#F0F0F0 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(to top, #F0F0F0 0%,#F0F0F0 100%); /* IE10+ */
-    background: linear-gradient( to top, #F0F0F0 0%,#F0F0F0 100%); /* W3C */
+
 }
 
 
@@ -212,7 +204,6 @@ a{
 .green {
     background: #56B870; /* 000000owsers */
     background: -moz-linear-gradient(to top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(to top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
     background: -o-linear-gradient(to top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(to top, #56B870 0%,#a5c956 100%); /* IE10+ */
@@ -272,13 +263,7 @@ a{
  *  Yellow Background
  **********************************************************************/
 .yellow {
-    background:     #FFFF70; /* Old browsers */
-    /*background: -moz-linear-gradient(to top, #F3AAAA 0%, #F3AAAA 100%); /* FF3.6+ */*/
-    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#F3AAAA)); /* Chrome,Safari4+ */*/
-    /*background: -webkit-linear-gradient(to top, #F3AAAA 0%,#F3AAAA 100%); /* Chrome10+,Safari5.1+ */*/
-    /*background: -o-linear-gradient(to top, #F3AAAA 0%,#F3AAAA 100%); /* Opera 11.10+ */*/
-    /*background: -ms-linear-gradient(to top, #F3AAAA 0%,#F3AAAA 100%); /* IE10+ */*/
-    /*background: linear-gradient(to top, #F3AAAA 0%,#F3AAAA 100%); /* W3C */*/
+    background:#FFFF70;
 }
 
 /***********************************************************************
