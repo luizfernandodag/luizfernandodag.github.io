@@ -1,0 +1,59 @@
+#a, #b {
+	width: 100px;
+	height: 100px;
+	font: 30pt bold Helvetica, Arial, sans-serif;
+	line-height: 100px;
+	text-align: center;
+}
+
+#a {
+	background-color: lightblue;
+	float: right;
+	/*overflow: show;*/
+}
+
+/*#b {
+	margin-top: 75px;
+	margin-left: 25px;
+	float: right;
+	clear:left;
+	background-color: pink;
+}*/
+#b {
+	position:absolute;
+	top:50px;
+	right: 100px;
+	background-color: pink;
+}
+
+
+/*#c {*/
+	/*clear: left;*/
+	/*margin-top: 50px;*/
+	
+/*	float:left;
+
+	background-color: lightgray;
+}*/
+
+
+#c {
+	clear:right;
+	text-align: center;
+
+	background-color: lightgray;
+}
+/*
+#a {
+  float: right;
+}
+#b {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+#c {
+  clear: right;
+  text-align: center;
+  margin-right: 100px;
+}*/

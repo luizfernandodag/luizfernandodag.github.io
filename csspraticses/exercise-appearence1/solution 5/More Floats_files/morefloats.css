@@ -1,0 +1,45 @@
+#a, #b {
+	width: 100px;
+	height: 100px;
+	font: 30pt bold Helvetica, Arial, sans-serif;
+	line-height: 100px;
+	text-align: center;
+}
+
+#a 
+{
+/*	background-color: lightblue;
+	float: right;
+*/	/*margin-left:100px;*/
+}
+
+#b {
+/*	float: left;
+	margin-right: 100px;
+*/	/*clear:left;*/
+   /*margin-left: auto;*/
+/*  margin-right: auto;
+	background-color: pink;
+*/}
+
+#c {
+/*	width:200px;
+*/	/*margin-right: 100px;*/
+/*	text-align: right;
+	 margin-left:100px;
+     margin-right: auto;
+	background-color: lightgray;*/
+}
+
+
+#a {
+  float: right;
+}
+#b {
+  float: left;
+}
+#c {
+  float: left;
+  text-align: center;
+  width: 100px;
+}
