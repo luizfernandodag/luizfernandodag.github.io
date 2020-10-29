@@ -1,0 +1,25 @@
+@media screen and (max-width: 599px)
+{
+
+}
+
+
+body{
+
+	 margin: 0 auto;
+    /*CHANGE FONT*/
+    font-family: Arial;
+
+
+
+
+}
+
+.container{
+
+display: grid;
+grid-template-columns: 
+    
+
+
+}

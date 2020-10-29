@@ -519,7 +519,7 @@ display: inline-block;
 }
 
 /*List movies*/
-.show:hover >  ul.list-categories{
+.show:hover  ul.list-categories{
   max-height: inherit;
   opacity: 1;
 }
