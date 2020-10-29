@@ -8,6 +8,20 @@ body {
 
 }
 
+.blue{
+  color: blue;
+}
+.green
+{color: green;}
+
+.yellow{
+  color: yellow;
+}
+
+.red{
+  color: red;
+}
+
 .zone {
     /*padding:30px 50px;*/
     /*cursor:pointer;*/
