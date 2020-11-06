@@ -21,11 +21,12 @@ div {
 table, th, td {
 
     /*border: 1px solid black;*/
-    border-collapse:collapse;
+    /*border-collapse:collapse;*/
 }
 th, td {
     border: 1px solid black;
-    width:200px;
+    /*width:fit-content;*/
+    /*height:fit-content;*/
     alignment:left;
 }
 
@@ -47,32 +48,60 @@ table{
     background-color: black;
     color: white;
 }
+.out{
 
+    text-align: center;
+}
 input
 {
-    width: 40%;
+    width: 100%;
 
 }
 .inputs{
     display: flex;
+    /*grid-template-columns: 47% 47%;*/
+    /*column-gap: 6%;*/
+    min-width: 75px;
+    height:fit-content;
+    text-align: center;
     /*align-items: center;*/
     padding: 0;
     border: 0;
     margin: 0;
+    overflow: hidden;
+}
+.out {
+    max-width: 50px;
+
+/*width: fit-content;*/
+    word-wrap: break-word;
+    /*white-space: pre-wrap;*/
 }
 
-#p1Input1{
-    margin-left: 5px;
-    /*margin-rigth:auto;*/
-    order: 1;
+
+
+
+.InputClass{
+    /*float:left;*/
+    /*width: 75px;*/
+    /*margin-left: 10px;*/
+    /*padding: 5px;*/
+    text-align: center;
+    margin-rigth:auto;
+    margin-left:auto;
 }
-#p1Input2{
-    margin-left:12px ;
-    /*margin-rigt:5px;*/
-    order:2;
+.Input2{
+   /*float: right;*/
+   /* width: 70px;*/
+   /* margin-right: 10px;*/
+
 }
 .number{
     /*pattern= "\d*.?\d+";*/
+}
+
+#p7Input2{
+    width: 20%;
 }
 
 
