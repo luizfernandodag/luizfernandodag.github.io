@@ -47,6 +47,11 @@ Description: pproblem in setting div to wrap
 Solution: set max-width to a css class
           set word-wrap: break-word to css class
 
+Trouble 6:
+Begin time: 22:10
+Description: get Nan elements when using split
+Solution 
+
 
 
 
