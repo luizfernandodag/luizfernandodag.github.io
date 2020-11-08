@@ -560,6 +560,9 @@ display: inline-block;
 .noBullets{
     list-style-type:none;
 }
+.done{
+    text-decoration: line-through;
+}
 
 
 .movieInfo{
