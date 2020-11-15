@@ -148,8 +148,49 @@ jQuery(document).ready(function($){
         clearInterval(funky);
     });
 
+    /* 4 Define a function sum() and a function multiply() that sums and multiplies (respectively) all the numbers in an array of numbers
+/* 5 Define a function reverse() that computes the reversal of a string.
+/* 7 Write a function filterLongWords() that takes an array of words and an integer i and returns the array of words that are longer than i. */
 
 // note: the $ is setup inside the anonymous function of the ready command
+
+//4
+    function sum(array)
+    {
+        return array.reduce( (previousValue,currentValue ) => {
+            return previousValue + (parseFloat(currentValue)||0);
+
+        },0   );
+    }
+
+    function multiply(array)
+    {
+        return array.reduce( (previousValue,currentValue ) => {
+            return previousValue*(parseFloat(currentValue)||1);
+
+        },1   );
+    }
+
+//5
+
+    function reverse(str)
+    {
+        return str.split("").reverse().join("");
+    }
+
+    //7
+
+    function filterLong(array,len)
+    {
+        return array.filter(s => s.length > len);
+    }
+
+
+
+
+
+
+
 
 });
 
