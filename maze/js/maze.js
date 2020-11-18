@@ -196,12 +196,13 @@ $(function()
          if(level === 'easy' && start === true) {
              $(".boundary:not(.boundary.example)").css({"background-color": "red"});
              // location.reload();
-             alert("Sorry :(.\nYou lost on level easy");
+             endOfGame("Sorry :(.\nYou lost. Try again.",'red');
 
              $(".boundary.example ").show();
              $(".boundary.example").attr("disabled", false);
              start = false;
              end = true;
+
 
          }
 
@@ -217,9 +218,18 @@ $(function()
     function winFunctionEasy()
     {
         if(start == true) {
-            alert("You win the easy level!\nTry now the hard level");
-            location.reload();
+
+            endOfGame("Congratulations :) ! \nYou won the easy level. Try now the hard levels!",'green');
+
+            $(".boundary.example ").show();
+            $(".boundary.example").attr("disabled", false);
+            start = false;
             end = true;
+
+
+
+
+
         }
     }
 
