@@ -124,7 +124,7 @@ $(function()
                 }
                 else if (collisionEnd(left,top, boxWidth,boxHeight ))
                 {
-                    $(".boundary:not(.boundary.example)").css({"background-color": "red"});
+
                     // location.reload();
                     endOfGame("Congratulations :) ! \nYou won the level hard level!\nYou are ready to become a jedi!",'green');
 
