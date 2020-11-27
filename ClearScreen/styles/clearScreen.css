@@ -1,0 +1,52 @@
+body{
+	position:relative;
+}
+
+.initialDiv{
+	
+	display: flex;
+   align-items: center; 
+   justify-content: center;
+	margin-top: 20%;
+
+	
+
+}
+.buttons
+{
+	width: 200px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+
+}
+
+.initialCircle{
+	background-color: blue;
+	display: flex;
+   align-items: center; 
+   justify-content: center;
+   /*margin-left: 400px;*/
+	width: 50px;
+	height: 50px;
+	border-radius:50px;
+	
+	border: 2px solid black
+	/*border-radius: 15px  00px 0px 0px;
+	width: 50px;*/
+}
+
+.Circle{
+	display: flex;
+   align-items: center; 
+   justify-content: center;
+	width: 50px;
+	height: 50px;
+	border-radius:50px;
+	
+	border: 2px solid black
+	/*border-radius: 15px  00px 0px 0px;
+	width: 50px;*/
+}
+
