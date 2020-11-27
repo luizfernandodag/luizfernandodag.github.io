@@ -164,8 +164,8 @@ function Circle(radius,width,heigth,growthAmount,growRate,circleCounter) {
     	console.log("r"+r);
 
     	//get random top and left 
-    	var pageWindth = $('body').width();
-    	var pageHeight = $('body').height();
+    	var pageWindth = $('html').width();
+    	var pageHeight = $('html').height();
     	var top = Math.floor(Math.random()*pageHeight-this.getHeigth()) ;
     	var left = Math.floor(Math.random()*pageWindth - this.getWidth());
     	console.log(top);
@@ -196,7 +196,7 @@ function Circle(radius,width,heigth,growthAmount,growRate,circleCounter) {
     	console.log(circleCounter);
     	this.setDiv('#div'+circleCounter);
     	console.log(this.getDiv());
-    	$('body').append($(divtag));
+    	$('html').append($(divtag));
 
     	$(this.getDiv()).on('click',removeCircle);
     	// $(divtag).appendTo('#circles');
