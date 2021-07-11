@@ -1,0 +1,205 @@
+
+
+html{
+	 margin: 0 auto;
+	 top:0 auto;
+	 padding:  0 auto;
+	 margin: 0 auto;
+}
+body{
+
+top:0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+
+
+
+
+}
+
+
+/*-------------------FLEX LAYOUT -------------------*/
+.flexH1{
+	/*for center alignment*/
+	display: flex;   
+	/*position: relative;*/
+	margin:0;
+		/*center aligment*/
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	vertical-align: middle;
+	height: 70px;
+	font-size: 18pt;
+	font: bold;
+	/*lightBlue*/
+	background: #CCFFFF;
+}
+
+.flexNav{
+	display: flex;
+    height: 50px;
+	
+
+	background: #013220;
+
+
+}
+
+.flexNav > div
+{
+
+/*white*/
+color: #FFFFFF;	
+
+
+/*for center alignment*/
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+vertical-align: middle;
+/*end center aligmrnts*/
+
+  /*box*/
+		
+			width: 100px;
+			height: 50px;
+			column-gap: 0px;
+			
+			border-right:  solid black ;
+	
+  /*end box definition*/
+    
+
+}
+
+.flexBody{
+	display: flex;
+	height: 200px;
+}
+
+#column1, #column2, #column3
+{
+	
+	height:250px;
+}
+#column1{
+	width: 30%;
+	order: 1;
+	background-color: #808080;
+}
+
+#column2{
+	width: 40%;
+	order: 2;
+	background-color: #D0D0D0;	
+}
+#column3{
+
+	width: 30%;
+	order: 3;
+	background-color: #EDEDED;
+}
+
+
+
+.foot
+{
+	height: 100px;
+	width: 100%;
+	background: #013220;
+	color:#FFFFFF;
+	
+	/*align center*/
+	display:flex;
+		/*align vertical*/
+		align-items: center;
+		/*align horizontal*/
+		justify-content: center;
+
+	
+
+
+}
+
+/* ------------------- MEDIA SCREEN LAYOUT -------*/
+@media screen and (max-width: 599px)
+{
+.flexBody
+{
+
+	flex-direction: row-reverse;
+	 flex-wrap: wrap;
+
+}
+
+
+#column1{
+	width: 50%;
+	order: 2;
+	background-color: #808080;
+}
+
+#column2{
+	width: 100%;
+	height: 200px
+	order: 3;
+	background-color: #D0D0D0;	
+}
+#column3{
+	
+	width: 50%;
+	order: 1;
+	background-color: #EDEDED;
+}
+
+.foot{
+	position: absolute;
+	top:600px;
+
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+/*------------------END FLOAT LAYOUT ---------------*/
+
+
+/* ----------------- GRID LAYOUT -------------------*/
+.container{
+
+display: grid;
+grid-template-columns: 
+    
+
+
+}
+/* ---------------END GRID LAYOUT -----------------*/
+
+
+
+/*--------------------COLORS-----------------------*/
+
+.lightBlue{
+	color: #CCFFFF;
+}
+
+
+/*-------------------ENDCOLORS--------------------*/
+
+
+/* ------------------- MEDIA SCREEN LAYOUT -------*/
+@media screen and (max-width: 599px)
+{
+
+}

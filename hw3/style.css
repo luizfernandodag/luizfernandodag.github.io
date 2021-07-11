@@ -1,0 +1,181 @@
+
+
+html{
+	 margin: 0 auto;
+	 top:0 auto;
+	 padding:  0 auto;
+	 margin: 0 auto;
+}
+body{
+
+top:0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+
+
+
+
+}
+
+
+/*-------------------FLOAT LAYOUT -------------------*/
+.floatH1{
+	/*for center alignment*/
+	display: flex;   
+	/*position: relative;*/
+	margin:0;
+		/*center aligment*/
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	vertical-align: middle;
+	height: 70px;
+	font-size: 18pt;
+	font: bold;
+	/*lightBlue*/
+	background: #CCFFFF;
+}
+
+.floatNav{
+	
+    height: 50px;
+	
+
+	background: #013220;
+
+
+}
+#menu1, #menu2, #menu3{
+	/*white*/
+color: #FFFFFF;	
+float: left;
+
+/*for center alignment*/
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+vertical-align: middle;
+/*end center aligmrnts*/
+
+  /*box*/
+		
+			width: 100px;
+			height: 50px;
+			column-gap: 0px;
+			
+			border-right:  solid black ;
+	
+  /*end box definition*/
+    
+	
+}
+
+#column1, #column2, #column3
+{
+	float:left;
+	height:250px;
+}
+#column1{
+	width: 30%;
+	background-color: #808080;
+}
+
+#column2{
+	width: 40%;
+background-color: #D0D0D0;	
+}
+#column3{
+	width: 30%;
+	background-color: #EDEDED;
+}
+
+
+.floatBody{
+	height: 200px;
+}
+
+.foot
+{
+	height: 100px;
+	width: 100%;
+	background: #013220;
+	color:#FFFFFF;
+	
+	/*align center*/
+	display:flex;
+		/*align vertical*/
+		align-items: center;
+		/*align horizontal*/
+		justify-content: center;
+
+	
+
+
+}
+
+/* ------------------- MEDIA SCREEN LAYOUT -------*/
+@media screen and (max-width: 599px)
+{
+	#column1
+    {
+	float:left;
+	
+    }
+    #column3
+    {
+    	position: absolute;
+    	top: 120px;
+    	right:0;
+	float:right;
+	
+    }
+	#column1, #column3{
+		width: 50%;
+	}
+
+
+#column2{
+	/*clear: right;*/
+	width: 100%;
+}
+
+}
+
+
+
+
+
+
+/*------------------END FLOAT LAYOUT ---------------*/
+
+
+/* ----------------- GRID LAYOUT -------------------*/
+.container{
+
+display: grid;
+grid-template-columns: 
+    
+
+
+}
+/* ---------------END GRID LAYOUT -----------------*/
+
+
+
+/*--------------------COLORS-----------------------*/
+
+.lightBlue{
+	color: #CCFFFF;
+}
+
+
+/*-------------------ENDCOLORS--------------------*/
+
+
+/* ------------------- MEDIA SCREEN LAYOUT -------*/
+@media screen and (max-width: 599px)
+{
+
+}

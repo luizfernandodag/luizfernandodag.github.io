@@ -1,0 +1,17 @@
+#outer {
+	border: 2px dashed black;
+	padding: 10px;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	margin: 10px;
+}
+
+.box.FLOAT{
+	display:inline-block;
+	/*float:left;*/
+	margin:1em;
+}

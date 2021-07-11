@@ -1,0 +1,314 @@
+
+
+html{
+	 margin: 0 auto;
+	 top:0 auto;
+	 padding:  0 auto;
+	 margin: 0 auto;
+}
+body{
+
+top:0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+
+
+
+
+}
+
+
+/*-------------------BOOSTRAP LAYOUT -------------------*/
+
+.jumbotron h1, .jumbotron.foot  {
+		margin: 0;
+	border:0;
+	padding:  0;
+	height: 70px;
+	font-size: 18pt;
+	display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+vertical-align: middle;
+
+}
+.jumbotron{
+		font-size: 12px;
+}
+.text-center
+{
+		font-size: 12px;
+	margin: 0;
+	border:0;
+	padding:  0;
+}
+.col-*{
+	
+
+	display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+vertical-align: middle;
+flex-wrap: none;
+	
+
+}
+
+.col-sm-1
+{
+	display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+vertical-align: middle;
+/*end center aligmrnts*/
+
+  /*box*/
+		
+			
+			height: 50px;
+			/*column-gap: 5px;
+			*/
+			border-right:  solid black ;
+
+}
+
+.col-sm-10
+{
+	border-right:none;
+
+}
+
+#column1, #column2, #column3
+{
+	padding: 0;
+}
+div.row.navv
+{
+	background: #013220;
+	color: #FFFFFF;	
+	white-space: nowrap;
+		overflow: visible;
+    white-space: nowrap;
+}
+
+
+
+.floatH1{
+	/*for center alignment*/
+	display: flex;   
+	/*position: relative;*/
+	margin:0;
+		/*center aligment*/
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	vertical-align: middle;
+	height: 70px;
+	font-size: 18pt;
+	font: bold;
+	/*lightBlue*/
+	background: #CCFFFF;
+}
+
+.floatNav{
+	
+    height: 50px;
+	
+
+	background: #013220;
+
+
+}
+#menu1, #menu2, #menu3{
+	/*white*/
+color: #FFFFFF;	
+float: left;
+
+/*for center alignment*/
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+vertical-align: middle;
+/*end center aligmrnts*/
+
+  /*box*/
+		
+			/*width: 100px;*/
+			height: 50px;
+			column-gap: 0px;
+			
+			border-right:  solid black ;
+	
+  /*end box definition*/
+    
+	
+}
+
+#column1, #column2, #column3
+{
+	float:left;
+	height:250px;
+}
+#column1{
+	/*width: 30%;*/
+	background-color: #808080;
+}
+
+#column2{
+	/*width: 40%;*/
+background-color: #D0D0D0;	
+}
+#column3{
+	/*width: 30%;*/
+	background-color: #EDEDED;
+}
+
+
+.floatBody{#column1{
+	/*width: 30%;*/
+	background-color: #808080;
+}
+
+#column2{
+	/*width: 40%;*/
+background-color: #D0D0D0;	
+}
+#column3{
+	/*width: 30%;*/
+	background-color: #EDEDED;
+}
+	height: 200px;
+}
+
+.foot
+{
+	/*height: 100px;
+	width: 100%;*/
+	background: #013220;
+	color:#FFFFFF;
+	margin: 0;
+	border:0;
+	padding:  0;
+	border-style: 0px;
+	/*align center
+	/*display:flex;
+		align vertical
+		align-items: center;
+	*/	/*align horizontal*/
+		/*justify-content: center;*/
+*/
+	
+
+
+}
+
+.jumbotron.foot
+{
+	border-radius: 0;
+}
+
+
+.row.bigWidth
+{
+	flex-wrap: nowrap;
+}
+
+
+#column1.col-
+{
+	width: 30%;
+
+
+
+}
+
+#column2.col-
+{
+	width: 40%;
+
+}
+#column3.col-
+{
+	width: 30%;
+
+}
+
+
+span
+{
+	content: 'aaaaaaaaaaaaaaaaa';
+	visibility: hidden;
+}
+
+/* ------------------- MEDIA SCREEN LAYOUT -------*/
+@media screen and (max-width: 599px)
+{
+
+.row.bigWidth
+{
+	display: flex;
+	
+	flex-wrap: wrap;
+}
+
+
+#column1.col-
+{
+	width: 50%;
+
+}
+
+#column2.col-
+{
+	width: 50%;
+	
+}
+#column3.col-
+{
+	width: 100%;
+
+}	
+
+}
+
+
+
+
+
+
+/*------------------END FLOAT LAYOUT ---------------*/
+
+
+/* ----------------- GRID LAYOUT -------------------*/
+.container{
+
+display: grid;
+grid-template-columns: 
+    
+
+
+}
+/* ---------------END GRID LAYOUT -----------------*/
+
+
+
+/*--------------------COLORS-----------------------*/
+
+.lightBlue{
+	background-color:  #CCFFFF;
+}
+
+
+/*-------------------ENDCOLORS--------------------*/
+
+
+/* ------------------- MEDIA SCREEN LAYOUT -------*/
+@media screen and (max-width: 599px)
+{
+
+}

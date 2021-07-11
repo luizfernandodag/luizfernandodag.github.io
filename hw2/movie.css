@@ -1,0 +1,392 @@
+html{
+ /*8pt font, using Verdana, Tahoma, or any sans-serif*/
+ font-family: Verdana, Tahoma, Sans-serif;
+ font-size: 8pt;
+ letter-spacing: 0.25em;
+  /*Lucida, Sans Unicode, Helvetica, Arial, Sans-Serif;*/
+    box-sizing: border-box;
+}
+ body{
+
+    top:0;
+    margin: 0;
+    padding: 0;
+	background-image: url("images/background.png");            
+
+}
+
+h1{
+	font-family: Verdana, Tahoma, Sans-serif;
+	/*top:0;*/
+	/*MAIN TITLE HEADING PROPERTIES*/
+	/*Text Shadow*/
+	 margin: 0;
+    /*padding: 0;*/
+	text-align: center;
+}
+
+h1 img
+{
+	margin: 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+h2{
+	font-size: 24pt;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 2px 2px #999999;
+	
+	
+
+
+}
+
+.rating  img 
+{
+	margin: 0;
+	padding:0;
+	border:0;
+	/*border-image: 4px;
+	border-radius: :4px;*/
+	 border-radius: 15px  00px 0px 0px;
+  /*vertical-align: bottom;*/
+  
+  vertical-align: middle;
+
+
+
+}
+.rating span
+{
+	margin: 0;
+	padding:0;
+	border:0;
+
+}
+
+#overall
+{
+
+
+	
+	/*display: grid;*/
+	/*column-count: 2;*/
+	margin: 0 auto;
+	 /*display: flex;*/
+	/*justify-content: center;*/
+	 /*margin-left: : 1rem;*/
+    /*column-count: 2;*/
+    /*padding: 0.001px;*/
+
+	width: 800px;
+
+	/*column-count: 2;	*/
+	column-gap: 0px;
+	column-rule: 1px solid gray;
+	
+	border: 4px solid gray;
+	/*padding: 10px;*/
+	border-radius: 20px;
+	overflow: hidden;
+    
+
+}
+
+#comments{
+
+	 /*grid-column: 1;*/
+	 float:left;
+	   /*clear:right;*/
+	margin: 0;
+    padding: 0;
+
+    border-radius: 16px  00px 0px 0px;
+    /*margin-left: 0.4px;*/
+	width: 550px;
+	
+    overflow: hidden;
+
+}
+#comments .commentsGrid
+{
+	display: grid;
+	grid-template-columns: 47% 47%;
+	column-gap: 4%; 
+}
+
+
+.commentsGrid .col-1{ 
+float: left;
+  /*color: white; */
+  /*height: 100px; */
+  /*background-color: #112432; */
+  /*padding: 10px; */
+} 
+
+.commentsGrid .col-2{
+float: right; 
+  /*color: white; 
+  height: 100px; 
+  background-color: #4d1635; 
+  padding: 10px; */
+} 
+
+#overall .movieInfo
+{
+	/*min-width: 550px;*/
+/*{	margin: 1px;*/
+	float: left;
+	width: 250px;
+	height: 800px;
+	 margin-top: 0px;
+	 margin-right: 0px;
+	 margin-left: 0px;
+	 border:0;
+
+	 margin-bottom: 0px;
+    padding: 0;
+    background: #398839;
+
+
+	/*width: 100px;*/
+	   overflow: hidden;
+	/*overflow: hidden;*/
+
+}
+
+.movieInfo div{
+	font-family: Verdana, Tahoma, Sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+	margin: 8px;
+	margin-left: 15px;
+	margin-top: 5px;
+		width: 250px;
+	float:left;
+	
+
+}
+.movieInfo p
+{
+	font-size: 8pt;
+	margin-top: 0;
+	margin-left: 40px;
+	font-weight: normal;
+
+}
+
+#overall .reviewPage
+{
+	float: right;
+	float: left;
+	/*margin: auto;*/
+	text-align: center;
+	vertical-align: center;
+  width: 50%;
+	font-size: 6pt;
+	width: 800px;
+	height: 20px;
+	border-top: 5px;
+	padding-top: 5px;
+	 vertical-align: center;
+
+	 margin: auto;
+
+	
+    padding: 0;
+    background: #398839;
+    border-radius: 0px  00px 12px 12px;
+}
+.reviewPage > .spana
+{
+	margin-left:  auto;
+	margin: 5px;
+	padding: 5px;
+	border: 5px;
+  width: 50%;
+
+	margin: auto;
+	vertical-align: center;
+}
+
+
+
+
+
+#overall > .rating
+{
+	 /*grid-column: 1;*/
+	 float:left;
+	   /*clear:right;*/
+	 margin: 0;
+    padding: 0;
+
+    border-radius: 16px  00px 0px 0px;
+    /*margin-left: 0.4px;*/
+	width: 550px;
+	
+    background-image: url("images/rbg.png");
+    /*background-border-radius: 20px;*/
+    /*background-repeat: repeat;*/
+    background-size: 83px 83px;
+   	font-size: 55px;
+   	font-weight: bold;
+    /*font-size: 83px;*/
+    /*text-align: middle;*/
+
+    color: red;
+    overflow: hidden;
+
+    
+	/*background-image: url("images/bannerbg.png");            */
+
+
+}
+
+#overall .pic
+{
+	/*min-width: 550px;*/
+/*{	margin: 1px;*/
+	float: right;
+	 margin: 0 auto;
+    padding: 0;
+
+
+	/*width: 100px;*/
+	   overflow: hidden;
+	/*overflow: hidden;*/
+
+}
+div.pic img
+{
+	padding:0;
+	margin: 0;
+	border: 0;
+	bottom: 0;
+	top: 0;
+
+}
+
+
+
+
+#overall > #overview
+{
+	float: left;
+	/*display: flex;*/
+	/*overflow: hidden;*/
+
+	 /*overflow: hidden;*/
+
+	/*top: 0px;
+	width: 250px;
+	
+ overflow: hidden;
+*/
+	/*width: 55px;*/
+
+}
+
+
+
+
+
+#overall  .critics
+{
+
+	margin-left: 10px;
+	margin-right: 70%;
+
+
+	/*float: left;
+	display: grid;*/
+	/*width: 50px*/
+	/*display: flex;*/
+	
+	/*grid-template-columns: 50% 50%;*/
+	
+}
+
+
+
+
+.rating > span
+{
+	 margin: 0;
+    padding: 0;
+    
+	font-size: 55px;
+   	font-weight: bold;
+    /*font-size: 83px;*/
+    /*text-align: middle;*/
+
+    color: red;
+   
+}
+
+
+
+.review
+{
+	font-size: 8pt;
+	margin: 8pt 0pt 8pt 8pt ;
+	font-weight: bold;
+	background-color: #E8DC9B;
+	border: 2px solid gray ;
+	border-radius: 10px 10px 10px 10px;
+	
+	padding: 8px;
+
+}
+/*.critics>.review
+{
+	width: 50%;
+}*/
+
+.review.like
+{	float: left;
+
+	/*background-image: url("images/fresh.gif");*/
+	/*background-repeat:no-repeat*/
+	
+	
+}
+
+
+.review.like img
+{
+	vertical-align: top;
+
+}
+
+div.critic
+{
+	float: left;
+
+	margin-top:0px;
+	margin-left:8px;
+	
+}
+
+
+.critic > img
+{
+	float: left;
+}
+
+.critic > p 
+{
+	margin-top: 0px;
+	margin-left: 40px;
+
+}
+
+footer{
+
+	margin-top: 200px;
+	/*align-content: right;*/
+	text-align: right;
+}
+
+
