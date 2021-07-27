@@ -1,0 +1,59 @@
+*{
+	text-align: right;
+}
+
+body{}
+
+
+p{
+	color: #359F35;
+	text-align: center;
+	border:  5px solid #359F35;
+	cursor: pointer;
+
+}
+
+p{
+	color: pink;
+	line-height: 5px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 100%;
+	font-family: 'Poiret One', cursive;
+	
+}
+
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext{
+	border:  5px dashed red;
+}
+.active{
+	color:  yellow;
+
+}
+
+#div1{
+	background-color: rgba(0, 0, 255, 0.3);
+}
+
+#div2{
+
+background-color: rgba(0, 255, 0, 0.3);
+
+}
+
+img{
+	float:  left;
+}
+
+footer{
+	clear:  both;
+	text-align: center;
+}
+span{
+	font-size: 50px;
+}

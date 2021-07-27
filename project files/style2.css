@@ -1,0 +1,23 @@
+h2{
+	color: blue;
+}
+
+.boxmodel
+{
+	border:  5px solid red;
+	display: inline-block;
+	padding:  5px 20px 5px 20px;
+	margin: 20px ;
+	width: 33px;
+	height: 55px;
+}
+
+p{
+	font-size: 10px ;
+}
+h3{
+	font-size: 5rem;
+}
+span{
+	font-size: 0.5em;
+}
