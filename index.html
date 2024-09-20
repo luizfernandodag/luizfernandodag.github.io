@@ -1,64 +1,244 @@
+<!-- <link rel="shortcut icon" type="image/jpg" href="./img/logoDAG.png"/> -->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>DAG</title>
-  <link rel="shortcut icon" type="image/jpg" href="./img/logoDAG.png"/>
-  <link rel="stylesheet" type="text/css" href="./style.css">
-</head >
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luiz Fernando Gadêlha - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
 <body>
-    <!-- HEADER -->
-    <!-- ************************************************************ -->
-     <nav class="zone blue sticky">
-    <ul class="main-nav left">
-        <li><a href="">Home</a></li>
-        <li><a href="pages/about.html">About</a></li>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#">
+          <h1 class="logo">LG</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
 
-        <li><a href="pages/projects.html">Projects</a></li>
-    </ul>
-    
-     <ul class="main-nav center ">   
-      <li class="correct" ><a href=""><img class="mypic logo" src="img/logoDAG.png" alt="logo"></a></li>
-     </ul>
-     <ul class="main-nav right">
-        <li class="push"><a href="pages/blog.html">Blog</a></li>
-        <li class="push justify-content-end"><a href="pages/portifolium.html">Portifolium</a></li>
-       
-        <li class="push justify-content-end"><a href="pages/contact.html">Contact</a></li>
-      
-    </ul>
-  </nav>
-  <!-- ************************************************************ -->
-  <!-- END HEADER -->
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
 
-  <!-- BODY -->
-<!-- ************************************************************ -->
-  <div class="container2">
-      <img id="pic"  src="./img/mypic2.jpeg" alt="My picture"/>
-      <br>
-      <div id="picText" >
-        <h2 class="innerText">LuizFernando de Andrade Gadelha</h2>
-          <h3 class="innerText">Software Engineer </h3>
-          <br>
-          <h3 class="innerText">Webdev, Software Enginnering, Data Science, Distributed Systems, Learning Systems</h4>
+  <section class="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🖖,</p>
+          <h1>Sou o Luiz Gadêlha</h1>
+          <h2>Desenvolvedor Full Stack</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/luiz-gadelha/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/+5561991234428" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/luizfernandodag" class="outer-shadow"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/luizfernandogadelha/" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/foto-perfil.png" alt="foto do perfil do Luiz" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/foto-perfil.png" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Luiz e sou um desenvolvedor frontend em
+              formação!</strong>
+              Gosto MUITO da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+          </p>
+
+          <p>
+           Estou sempre me desafiando coim novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
+          </p>
+
+          <p>
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="/src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
       </div>
 
+      <div class="container-habilidades">
+        <div class="informacoes java">
+          <div class="logo">
+            <i class="devicon devicon-java-plain" id="java"></i>
+          </div>
+          <h3>Java</h3>
+          <p>12+ anos de experiência em desenvolvimento com Java EE, incluindo Java 7, construção de APIs e microservices utilizando frameworks como Spring Boot</p>
+        </div>
 
+        <div class="container-habilidades">
+          <div class="informacoes python">
+            <div class="logo">
+              <i class="devicon devicon-python-plain" id="python"></i>
+            </div>
+            <h3>Python</h3>
+            <p>10+ anos de experiência com Python, desenvolvendo scripts de automação, integrações de APIs e soluções de análise de dados com frameworks como Flask, Django, e Pandas.</p>
+          </div>
+
+          <div class="informacoes agile">
+            <div class="logo">
+              <img src="src\imagens\scrum.png" alt="scrum image" width="100" height="100">
+
+              <i class="devicon devicon-agile-plain" id="agile"></i>
+            </div>
+            <h3>Agile/Scrum</h3>
+            <p>Sou um Scrum Master. Tenho 10+ anos de experiência em metodologias ágeis. Com foco em entrega contínua e adaptabilidade ao cliente.</p>
+          </div>
+    
+
+        
+
+       
+
+          <div class="informacoes sql">
+            <div class="logo">
+              <i class="devicon-postgresql-plain" id="sql"></i>
+            </div>
+            <h3>SQL</h3>
+            <p>8+ anos de experiência com SQL em bancos de dados relacionais, como PostgreSQL e MySQL, desenvolvendo queries complexas e otimizando o desempenho.</p>
+          </div>
+
+          <div class="informacoes git">
+            <div class="logo">
+              <i class="devicon devicon-git-plain" id="git"></i>
+            </div>
+            <h3>Git</h3>
+            <p>10+ anos de experiência com Git, gerenciamento de versionamento de código e integração com pipelines CI/CD.</p>
+          </div>
+      </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <div>
-      
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://github.com/projeto1">
+            <img src="https://via.placeholder.com/515X700" alt="E-commerce Platform" />
+            <h3>Plataforma de E-commerce</h3>
+            <div class="informacoes-projeto">          
+              <p>Desenvolvimento de uma plataforma de e-commerce utilizando Java EE, JSF/Primefaces, JPA/Hibernate, e integração com um sistema de pagamento digital.</p>
+              <p>🔗 Ver no GitHub</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://github.com/projeto2">
+            <img src="https://via.placeholder.com/515X700" alt="Big Data Analytics Platform" />
+            <h3>Plataforma de Big Data</h3>
+            <div class="informacoes-projeto">          
+              <p>Desenvolvimento de uma plataforma de análise de dados em tempo real utilizando Kafka, Spark, AWS (S3, Lambda), e integração de APIs para automação.</p>
+              <p>🔗 Ver no GitHub</p>
+            </div>      
+          </a>          
+        </div>
+
+          <div class="projeto">     
+        <a href="https://github.com/projeto3">
+          <img src="https://via.placeholder.com/515X700" alt="API Automation System" />
+          <h3>Sistema de Automação de API</h3>
+          <div class="informacoes-projeto">
+            <p>Criação de scripts de automação e integração para APIs de terceiros, com foco em dashboards web e controle de processos em Python e Flask.</p>
+            <p>🔗 Ver no GitHub</p>
+          </div>
+        </a>   
+      </div>
+
+      <div class="projeto">
+        <a href="https://github.com/projeto4">
+          <img src="https://via.placeholder.com/515X700" alt="DevOps Pipeline" />
+          <h3>Pipeline de DevOps</h3>
+          <div class="informacoes-projeto">
+            <p>Implementação de pipelines CI/CD com Jenkins e GitHub Actions, utilizando Docker e Kubernetes para orquestração de contêineres e infraestrutura como código com Terraform.</p>
+            <p>🔗 Ver no GitHub</p>
+          </div>
+        </a>
+      </div>
+      </div>
     </div>
+  </section>
 
-
-
-<!-- ************************************************************ -->
-<!-- END BODY -->
-<!-- FOOTER -->
- 
-
-  <!-- ************************************************************ -->
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/luiz-gadelha/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/+5561991234428" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/luizfernandodag" class="outer-shadow"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/luizfernandogadelha/" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
